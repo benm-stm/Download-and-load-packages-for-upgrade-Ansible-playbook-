@@ -7,11 +7,11 @@
     path_rhel6 : /var/lib/codendi/ftp/pub/codex-cc/yum/tuleap/rhel/6/stable/x86_64
     # Backup Path
     backup_path_rhel6 : /var/lib/codendi/ftp/pub/codex-cc/yum/tuleap/rhel/6/stable/backup
-    # Username
+    # Username to be owner of the file system
     user: codendiadm
-    # Group
+    # Group to be group of ownership of the file system
     group: codendiadm
-    #platform in this cas the repo should be already configured under /etc/yum.repo
+    #platform in this case the repo should be already configured under /etc/yum.repo
     platform : tuleap*
     #Tuleap repo name
     repo : TuleapDirect
